@@ -1,0 +1,15 @@
+{% autoescape off %}
+
+
+    Hello, {{ user.username }}!
+
+
+    Thank you for registering with FileNexus. To activate your account, click the link below:
+
+    http://localhost:5173/activate/{{ uidb64 }}/{{ token }}
+
+    After your account has successfully been activated, you can proceed to the 'Login' page and log in using the details provided. You'll be using our service in no time!
+
+    If you didn't register with us, you can ignore this email.
+
+{% endautoescape %}
