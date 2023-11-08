@@ -1,0 +1,3 @@
+option_settings:
+  aws:elasticbeanstalk:container:python:
+    WSGIPath: filenexus_django.wsgi:application
